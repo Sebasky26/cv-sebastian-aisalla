@@ -246,3 +246,41 @@ button:focus {
     outline: 3px solid #ff9500;
     transform: scale(1.03);
 }
+
+/* Footer */
+footer {
+    background-color: #0077CC;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 40px;
+}
+
+.contenedor-footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0 0 0;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.redes-sociales a:hover,
+.redes-sociales a:focus {
+    text-decoration: underline;
+    outline: 3px solid #ff9500;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
