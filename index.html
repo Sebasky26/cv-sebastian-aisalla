@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Sebastian Aisalla</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="foto-perfil">
+                <img src="resources/perfil.jpeg" alt="Retrato de Mario Sebastian Aisalla Pozo" />
+            </div>
+            <div class="texto-header">
+                <h1>Mario Sebastian Aisalla Pozo</h1>
+                <p>Estudiante de Ingeniería de Software</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="menu-navegacion">
+            <li><a href="#perfil" class="boton boton-inicio">Perfil</a></li>
+            <li><a href="#experiencia" class="boton boton-experiencia">Proyectos</a></li>
+            <li><a href="#video" class="boton boton-video">Video</a></li>
+            <li><a href="#contacto" class="boton boton-contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="perfil" class="seccion" tabindex="0">
+            <h2>Perfil Profesional</h2>
+            <p>
+                Soy estudiante de Ingeniería de Software con interés en programación, inteligencia artificial,
+                accesibilidad y diseño centrado en el usuario. Me enfoco en crear soluciones funcionales, limpias y
+                usables. Me encanta aprender y mejorar constantemente.
+            </p>
+
+            <ul class="info-contacto">
+                <li><strong>Edad:</strong> 22 años</li>
+                <li><strong>Ciudad:</strong> Quito, Ecuador</li>
+                <li><strong>Teléfono:</strong> <a href="tel:+593995220022">0995220022</a></li>
+                <li><strong>Correo personal:</strong> <a
+                        href="mailto:sebasaisalla26@gmail.com">sebasaisalla26@gmail.com</a></li>
+                <li><strong>Correo institucional:</strong> <a
+                        href="mailto:mario.aisalla@epn.edu.ec">mario.aisalla@epn.edu.ec</a></li>
+            </ul>
+        </section>
+
+        <section id="experiencia" class="seccion" tabindex="0">
+            <h2>Proyectos Académicos</h2>
+
+            <article class="proyecto">
+                <h3>Sitio Web del Instituto de Biomecánica del Ecuador</h3>
+                <p>Proyecto institucional con enfoque UX.</p>
+                <a href="https://educalab.ec/ibe/" target="_blank">Ver proyecto</a>
+            </article>
+
+            <figure>
+                <img src="resources/ibe.png"
+                    alt="Captura del sitio web desarrollado para el Instituto de Biomecánica del Ecuador, se muestra su página inicial, los menús de navegación y una foto descriptiva del sitio" />
+                <figcaption>Proyecto web del Instituto de Biomecánica del Ecuador</figcaption>
+            </figure>
+
+            <article class="proyecto">
+                <h3>Cazar Patos</h3>
+                <p>Juego interactivo Android (2025).</p>
+                <a href="https://github.com/Sebasky26/CazarPatos" target="_blank">Ver repositorio</a>
+            </article>
+
+            <article class="proyecto">
+                <h3>Geometrilandia</h3>
+                <p>Juego educativo con ML y hardware para niños (2025).</p>
+                <a href="https://github.com/Sebasky26/Geometrilandia" target="_blank">Ver repositorio</a>
+            </article>
+
+            <article class="proyecto">
+                <h3>Chaucherita Web</h3>
+                <p>Sistema de finanzas personales (2024).</p>
+                <a href="https://github.com/Fechise/AW_ChaucheritaWeb_GR01" target="_blank">Ver repositorio</a>
+            </article>
+
+            <article class="proyecto">
+                <h3>Museo Interactivo de Dioses Griegos</h3>
+                <p>Sitio educativo con interfaz 3D (2024).</p>
+                <a href="https://github.com/Sebas2606/2024A_GR2SW_GR5" target="_blank">Ver repositorio</a>
+            </article>
+
+            <article class="proyecto">
+                <h3>Detección de Somnolencia</h3>
+                <p>Sistema de IA para seguridad vial (2024).</p>
+                <a href="https://github.com/Grupo4-Construccion/ProyectoFinal-Grupo4" target="_blank">Ver
+                    repositorio</a>
+            </article>
+
+            <article class="proyecto">
+                <h3>ByteForge</h3>
+                <p>Juego para apoyar a personas con pérdida de memoria (2025).</p>
+                <a href="https://github.com/FrancisVelastegui2003/Proyecto_ByteForge" target="_blank">Ver
+                    repositorio</a>
+            </article>
+        </section>
+
+        <section id="video" class="seccion" tabindex="0">
+            <h2>Presentación en video</h2>
+
+            <div class="contenedor-video">
+                <video controls>
+                    <source src="resources/presentacion.mp4" type="video/mp4" />
+                    <!--<track src="resources/presentacion.vtt" kind="subtitles" srclang="es" label="Español" default />-->
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion" tabindex="0">
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post" class="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required tabindex="0" />
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required tabindex="0" />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required tabindex="0"></textarea>
+
+                <button type="submit" tabindex="0">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
